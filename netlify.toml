@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/app/*"
+  to = "https://sync-master-v1-ba6net.flutterflow.app/:splat"
+  status = 200
+  force = true
+  headers = {X-Forwarded-Host = "app.syncmaster.co"}
